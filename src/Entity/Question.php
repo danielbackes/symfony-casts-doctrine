@@ -10,8 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Question
 {
-    use TimestampableEntity;
-
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
